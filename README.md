@@ -3,6 +3,8 @@ ThreadPool base on C++11
 
 使用实例：
 ```
+// test.cpp
+
 #include "EasyThreadPool.h"
 #include <iostream>
 
@@ -22,4 +24,9 @@ int main()
     }
     return 0;
 }
+```
+
+编译命令：
+```
+g++ test.cpp EasyThreadPool.h EasyThreadPool.cpp -o test --std=c++11 -lpthread
 ```
